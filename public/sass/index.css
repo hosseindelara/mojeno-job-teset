@@ -7,9 +7,11 @@ body {
   font-size: 12px;
   text-align: right;
   background-color: #f6f5fa;
-  min-height: 750px;
   white-space: nowrap;
   overflow-x: hidden;
+  max-width: 720px;
+  min-height: 750px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -40,6 +42,11 @@ h5 {
 h6 {
   font-size: 14px;
   font-weight: bold;
+}
+
+.fixboxitem {
+  padding: 0px !important;
+  margin: 0px !important;
 }
 
 .headerRow {

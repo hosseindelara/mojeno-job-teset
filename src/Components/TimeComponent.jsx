@@ -55,7 +55,7 @@ const TimeComponent = () => {
                     <Row>
                         {
                             arrydata.map(item => (
-                                <Col key={item.toString()} className='text-center ' md={3} sm={3} xs={3} >
+                                <Col key={item.toString()} className='text-center fixboxitem' md={3} sm={3} xs={3} >
                                     <Form.Check>
                                         <Form.Check.Input className="d-none" type='radio' name='setsaat'
                                             onClick={handelTime} id={`three_${item}`} value={item} />

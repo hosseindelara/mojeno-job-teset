@@ -78,7 +78,7 @@ const DateandClock = () => {
                         <Row>
                             {
                                 arryTime.map((item, index) => (
-                                    <Col key={`${item.weeky}_${index}`} md={3} sm={3} xs={3} className='text-center' >
+                                    <Col key={`${item.weeky}_${index}`} md={3} sm={3} xs={3} className='text-center fixboxitem' >
                                         <Form.Check>
                                             <Form.Check.Input className="d-none" type='radio'
                                                 name='setdate'
