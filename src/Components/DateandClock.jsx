@@ -74,11 +74,11 @@ const DateandClock = () => {
                         <Clock size={16} className='timeCoustomColor ml-1' />
                         <h5> تاریخ و زمان مورد نیاز حضور نیرو</h5>
                     </Col>
-                    <Col className='mt-3 mb-3' >
+                    <Col className='mt-3 mb-3' md={12} sm={12} xs={12}  >
                         <Row>
                             {
                                 arryTime.map((item, index) => (
-                                    <Col key={`${item.weeky}_${index}`} className='text-center' >
+                                    <Col key={`${item.weeky}_${index}`} md={3} sm={3} xs={3} className='text-center' >
                                         <Form.Check>
                                             <Form.Check.Input className="d-none" type='radio'
                                                 name='setdate'

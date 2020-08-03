@@ -13,7 +13,7 @@ const Footer = () => {
 
 
     return (
-        <Row className='bg-white ' >
+        <Row className='bg-white fixed-bottom' >
             <Col md={12} sm={12} xs={12} className='text-center p-3 flex-center d-flex justify-content-center'>
                 <h6 className='ml-2' >جمع مبلغ پرداختی</h6>{sumHumna > 0 ? <p><span className='ml-1'>{priceFinal}</span>تومان</p> : null}
             </Col>

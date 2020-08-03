@@ -4,14 +4,17 @@ body {
     margin: 0;
     padding: 0;
     font-family: ShabnamFD;
-    font-size: 10px;
+    font-size: 12px;
     text-align: right;
     background-color: #f6f5fa;
+    min-height: 750px;
+    white-space: nowrap;
+    overflow-x: hidden;
 }
 
 @for $i from 1 to 7 {
     h#{$i} {
-        font-size: 12px;
+        font-size: 14px;
         font-weight: bold;
 
     }

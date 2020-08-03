@@ -55,11 +55,11 @@ const TimeComponent = () => {
                     <Row>
                         {
                             arrydata.map(item => (
-                                <Col key={item.toString()} className='text-center'>
+                                <Col key={item.toString()} className='text-center ' md={3} sm={3} xs={3} >
                                     <Form.Check>
                                         <Form.Check.Input className="d-none" type='radio' name='setsaat'
                                             onClick={handelTime} id={`three_${item}`} value={item} />
-                                        <Form.Check.Label className={parseInt(valuechekBox) === item ? 'p-3 m-2 checkBoxAttive' : 'p-3 m-2'} htmlFor={`three_${item}`} >{item} ساعت</Form.Check.Label>
+                                        <Form.Check.Label className={parseInt(valuechekBox) === item ? 'p-3 m-2 checkBoxAttive flex-nowrap' : 'p-3 m-2 flex-nowrap'} htmlFor={`three_${item}`} >{item} ساعت</Form.Check.Label>
                                     </Form.Check>
                                 </Col>
                             ))
