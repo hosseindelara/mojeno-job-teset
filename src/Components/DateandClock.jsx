@@ -87,7 +87,7 @@ const DateandClock = () => {
                                                 value={`${item.year}-${item.month}-${item.day}`}
                                             />
                                             <Form.Check.Label className={
-                                                selectedDay === `${item.year}-${item.month}-${item.day}` ? ' p-4 m-2 dateModal dateModalactive' : 'p-4 m-2 dateModal'
+                                                selectedDay === `${item.year}-${item.month}-${item.day}` ? ' p-3 m-1 dateModal dateModalactive' : 'p-3 m-1 dateModal'
                                             } htmlFor={`three_${item.day}`} >
                                                 <p>
                                                     {item.weeky}<br />
